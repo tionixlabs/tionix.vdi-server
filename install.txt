@@ -1,0 +1,8 @@
+Копируем файлы: index.html, vdi.cgi и vdi.css в папку /var/www/html/vdi/
+Меняем этой папке и файлам пользователя на: apache:apache и права на: 774
+Копируем vda.conf в /etc/apache/sites-available
+Включаем сайт.
+Включаем модули: mod_rewrite и cgi.
+Заливаем БД в mysql из файла vdi.sql
+apt-get install libwww-perl libdbi-perl libjson-perl libhtml-form-perl
+Копируем файл vdi.conf в папку /etc/vdi, даем права доступа для apache

@@ -1,0 +1,143 @@
+body {
+  text-align:center;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:auto;
+}
+span.blue {
+color: #005efe;
+font-weight:bold;
+margin-left: 4px;
+margin-right: 4px;
+}
+
+#forms {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+margin: auto;
+width:100%;
+padding 3 3 3 3px;
+text-align:left;
+border:1px solid #005efe;
+}
+.center {
+width: 150px;
+height: 80px;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -40px;
+margin-left: -75px;
+}
+
+block {
+width: 390px;
+height: 190px;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -195px;
+margin-left: -195px;
+}
+
+.middle {
+width: 200px;
+#border: 1px solid #000;
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align:top;
+margin: 5px;
+zoom: 1;
+*display: inline;
+_height: 250px;
+}
+
+/* Кнопки аля ссылки */
+input[type="submit"] {
+background: transparent;
+background-color:transparent;
+border: activeborder;
+font-size:14p;
+text-align:center;
+text-decoration:underline;
+color: 2038EE;
+font-weight:bold;
+}
+
+ /* кнопки как кнопки */
+ input#but2 {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: #6E7849 0 0 5px;
+    background-color: #639BFA;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    margin: 20px;
+    padding: 12px;
+    text-decoration:none;
+    font-weight:bold;
+ }
+
+input[type="button"] {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: #6E7849 0 0 5px;
+    background-color: #639BFA;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10 10 10 10px;
+    padding: 11px;
+    text-decoration:none;
+    font-weight:bold;
+ }
+
+input[type="text"] {
+/*clear:both;  */
+text-align:left;
+width:100%;
+}
+
+input[type="password"] {
+/*clear:both;  */
+text-align:left;
+width:100%;
+
+}
+label {
+  margin: 10px 0;
+}
+
+myh1 {
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+color: #639BFA;
+}
+
+myh2 {
+font-size:14px;
+font-weight: bold;
+text-align:center;
+padding:3px 7px 2px 7px;
+}
+
+/***********************************************************************************/
+/* Форма авторизации */
+#loginForm {
+    width: 300px;
+    padding: 24px 24px 0;
+    margin: auto;
+    background: #FEFEFE;
+    border: 1px solid #CAD8DE;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    font: 14px/18px Arial, Tahoma, sans-serif;
+    color: #444;
+    background-color: #B7D0FB;
+}
+
+#loginForm .field label {
+    display: block;
+    margin: 10 0 10px;
+    text-align:left;
+}
